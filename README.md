@@ -15,12 +15,13 @@ Exploring data related to bike share systems.
 ### **Files used for the project**
 
 The files used are the raw data of the bike share system in those three towns:
-  * Chicago
-  * New york
-  * Washington.
+  * Chicago.csv
+  * New york.csv
+  * Washington.csv
+
 
 ### **Credits**
-#1
+
 The following links and documents have been consulted:  
-* www.OpenClassrooms.org#1
+* #1www.OpenClassrooms.org#1
 * fr_Tanagra_Data_Manipulation_Pandas.pdf
