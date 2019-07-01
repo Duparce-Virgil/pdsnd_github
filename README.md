@@ -19,6 +19,11 @@ The files used are the raw data of the bike share system in those three towns:
   * New york.csv
   * Washington.csv
 
+  ### **List of software used**
+    * Anaconda
+    * Git
+    * Sublime text or atom
+    * Github
 
 ### **Credits**
 
