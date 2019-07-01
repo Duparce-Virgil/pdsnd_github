@@ -30,22 +30,22 @@ def get_filters():
 
 	# for getting user input for month (all, january, february, ... , june)
 
-	month = input("which month do you want to analyze: January, February, March, April, May, June or all? type 'all' or one of those months (please respect the case...):\n ") 
+	month = input("which month do you want to analyze: January, February, March, April, May, June or all? type 'all' or one of those months:\n ") 
 
 	while month not in ("January", "February", "March", "April", "May", "June", "all"):
 
 		print("incorrect answer!! please type exactly one of the months given or 'all' to analyze all the month") 
-		month = input("which month do you want to analyze: January, February, March, April, May, June or all? type 'all' or one of those months (please respect the case...):\n ")  
+		month = input("which month do you want to analyze: January, February, March, April, May, June or all? type 'all' or one of those months:\n ")  
 
 	month_day_compare["month_compare"] = month 
 
 	# for getting user input for day of week (all, monday, tuesday, ... sunday)
 	
-	day = input("which day do you want to analyze: Monday, Tuesday, Wednesday, Thurday, Friday, Saturday, Sunday or all of them? type 'all' or one of those days (please respect the case...):\n ")
+	day = input("which day do you want to analyze: Monday, Tuesday, Wednesday, Thurday, Friday, Saturday, Sunday or all of them? type 'all' or one of those days:\n ")
 	 
 	while day not in ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "all"): 
 		print("incorrect answer!! please type exactly one of the day given or type 'all' to analyze all the days") 
-		day = input("which day do you want to analyze: Monday, Tuesday, Wednesday, Thurday, Friday, Saturday, Sunday or all of them? type 'all' or one of those days (please respect the case...):\n ?:\n  ")  
+		day = input("which day do you want to analyze: Monday, Tuesday, Wednesday, Thurday, Friday, Saturday, Sunday or all of them? type 'all' or one of those days:\n ?:\n  ")  
 	
 	month_day_compare["day_compare"] = day 
 
